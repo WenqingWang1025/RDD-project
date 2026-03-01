@@ -3,6 +3,14 @@
 # All output files are saved in the SAME folder as the scripts!
 No subfolders, no complicated directory structure. Everything in one place.
 
+### 💡 Executive Summary
+The Problem: Standard aggregate metrics often hide critical variations. 
+             This project proves that default statistical models (Pooled RDD) implicitly weight data based on sample density rather than actual strategic importance, leading to skewed conclusions.
+The Data:Processed, cleaned, and analyzed large-scale longitudinal datasets (U.S. House elections, 1946-1992) using R, managing complex regional and temporal variables. 
+The Insight: By building a custom framework to re-weight the data based on true population impact, I demonstrated that default aggregated results were skewed by up to 38%. 
+Business Takeaway:Relying on default metric dashboards without understanding their underlying data assumptions can lead to severely flawed strategic decisions. 
+                  Custom weighting based on actual business objectives is crucial.
+
 ## 📁 Project Structure
 
 
